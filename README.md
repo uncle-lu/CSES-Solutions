@@ -81,11 +81,11 @@
 
 1. [Dice Combinations](/code/1633.cpp)
 1. [Minimizing Coins](/code/1634.cpp)
-1. Coin Combinations I
-1. Coin Combinations II
-1. Removing Digits
-1. Grid Paths
-1. Book Shop
+1. [Coin Combinations I](/code/1635.cpp)
+1. [Coin Combinations II](/code/1636.cpp)
+1. [Removing Digits](/code/1637.cpp)
+1. [Grid Paths](/code/1638.cpp)
+1. [Book Shop](/code/1158.cpp)
 1. Array Description
 1. Counting Towers
 1. Edit Distance
