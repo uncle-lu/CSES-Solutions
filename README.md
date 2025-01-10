@@ -7,9 +7,9 @@
 | 入门问题   |   17/19    |
 | 排序与搜索 |   12/35    |
 | 动态规划   |    7/19    |
-| 图算法     |    0/36    |
+| 图算法     |    2/36    |
 | 区间查询   |    0/19    |
-| 树算法     |    0/16    |
+| 树算法     |    1/16    |
 | 数学       |    0/31    |
 | 字符串算法 |    0/17    |
 | 贪心       |    0/7     |
@@ -101,14 +101,14 @@
 
 ## 图算法
 
-1. Counting Rooms
+1. [Counting Rooms](/code/1192.cpp)
 1. Labyrinth
 1. Building Roads
 1. Message Route
 1. Building Teams
 1. Round Trip
 1. Monsters
-1. Shortest Routes I
+1. [Shortest Routes I](/code/1671.cpp)
 1. Shortest Routes II
 1. High Score
 1. Flight Discount
@@ -162,7 +162,7 @@
 
 ## 树算法
 
-1. Subordinates
+1. [Subordinates](/code/1674.cpp)
 1. Tree Matching
 1. Tree Diameter
 1. Tree Distances I
