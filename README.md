@@ -53,8 +53,8 @@
 1. [Missing Coin Sum](/code/2183.cpp)
 1. [Collecting Numbers](/code/2216.cpp)
 1. [Collecting Numbers II](/code/2217.cpp)
-1. Playlist
-1. Towers
+1. [Playlist](/code/1141.cpp)
+1. [Towers](/code/1073.cpp)
 1. Traffic Lights
 1. Josephus Problem I
 1. Josephus Problem II
