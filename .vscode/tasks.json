@@ -35,7 +35,7 @@
                 ]
             },
             "osx": {
-                "command": "g++",
+                "command": "g++-14",
                 "args": [
                     "-g",
                     "--std=c++14",

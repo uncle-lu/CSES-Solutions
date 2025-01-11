@@ -5,7 +5,7 @@
 | 题目类型   |  解决数量  |
 | ---------- | :--------: |
 | 入门问题   |   17/19    |
-| 排序与搜索 |   12/35    |
+| 排序与搜索 |   15/35    |
 | 动态规划   |    7/19    |
 | 图算法     |    2/36    |
 | 区间查询   |    0/19    |
@@ -15,7 +15,7 @@
 | 贪心       |    0/7     |
 | 高级技巧   |    0/24    |
 | 附加问题   |    0/77    |
-| **Total**  | **31/300** |
+| **Total**  | **42/300** |
 
 # Table of Contents
 
@@ -55,10 +55,10 @@
 1. [Collecting Numbers II](/code/2217.cpp)
 1. [Playlist](/code/1141.cpp)
 1. [Towers](/code/1073.cpp)
-1. Traffic Lights
-1. Josephus Problem I
-1. Josephus Problem II
-1. Nested Ranges Check
+1. [Traffic Lights](/code/1663.cpp) => 链表, 倒序模拟
+1. [Josephus Problem I](/code/2162.cpp)
+1. [Josephus Problem II](/code/2163.cpp) => 平衡树/红黑树
+1. [Nested Ranges Check](/code/2168.cpp)
 1. Nested Ranges Count
 1. Room Allocation
 1. Factory Machines
