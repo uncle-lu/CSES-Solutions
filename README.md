@@ -102,8 +102,8 @@
 ## 图算法
 
 1. [Counting Rooms](/code/1192.cpp)
-1. Labyrinth
-1. Building Roads
+1. [Labyrinth](/code/1193.cpp)
+1. [Building Roads](/code/1666.cpp) => 并查集
 1. Message Route
 1. Building Teams
 1. Round Trip
