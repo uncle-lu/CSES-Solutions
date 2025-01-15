@@ -4,23 +4,15 @@
 using namespace std;
 
 int main() {
-    map<int, int> mp;
-    int n, temp, cnt = 0, far = 1, mx = 0;
+    map<int, int>mp;
+    int n, temp, mx = 0;
     scanf("%d", &n);
-    for (int i = 1; i <= n; i++) {
+    for(int r = 1, l = 1; r <= n; r++) {
         scanf("%d", &temp);
-        if (mp.find(temp) == mp.end())
-            cnt++;
-        else {
-            if (mp[temp] < far)
-                cnt++;
-            else {
-                far = mp[temp] + 1;
-                cnt = i - far + 1;
-            }
-        }
-        mp[temp] = i;
-        mx = max(mx, cnt);
+        if(mp.find(temp) != mp.end() && mp[temp] >= l)
+            l = mp[temp] + 1;
+        mp[temp] = r;
+        mx = max(mx, r - l + 1);
     }
     printf("%d", mx);
     return 0;

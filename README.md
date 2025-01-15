@@ -53,8 +53,8 @@
 1. [Missing Coin Sum](/code/2183.cpp)
 1. [Collecting Numbers](/code/2216.cpp)
 1. [Collecting Numbers II](/code/2217.cpp)
-1. [Playlist](/code/1141.cpp)
-1. [Towers](/code/1073.cpp)
+1. [Playlist](/code/1141.cpp) => 双指针
+1. [Towers](/code/1073.cpp) => 集合
 1. [Traffic Lights](/code/1663.cpp) => 链表, 倒序模拟
 1. [Josephus Problem I](/code/2162.cpp)
 1. [Josephus Problem II](/code/2163.cpp) => 平衡树/红黑树
