@@ -104,11 +104,11 @@
 1. [Counting Rooms](/code/1192.cpp)
 1. [Labyrinth](/code/1193.cpp)
 1. [Building Roads](/code/1666.cpp) => 并查集
-1. Message Route
-1. Building Teams
+1. [Message Route](/code/1667.cpp) => 广搜
+1. [Building Teams](/code/1668.cpp) => 染色
 1. Round Trip
 1. Monsters
-1. [Shortest Routes I](/code/1671.cpp)
+1. [Shortest Routes I](/code/1671.cpp) => 单源最短路
 1. Shortest Routes II
 1. High Score
 1. Flight Discount
