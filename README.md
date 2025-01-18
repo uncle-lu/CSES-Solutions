@@ -7,7 +7,7 @@
 | 入门问题   |   17/19    |
 | 排序与搜索 |   18/35    |
 | 动态规划   |    7/19    |
-| 图算法     |    2/36    |
+| 图算法     |    10/36    |
 | 区间查询   |    0/19    |
 | 树算法     |    1/16    |
 | 数学       |    0/31    |
@@ -15,7 +15,7 @@
 | 贪心       |    0/7     |
 | 高级技巧   |    0/24    |
 | 附加问题   |    0/77    |
-| **Total**  | **45/300** |
+| **Total**  | **53/300** |
 
 # Table of Contents
 
@@ -106,11 +106,11 @@
 1. [Building Roads](/code/1666.cpp) => 并查集
 1. [Message Route](/code/1667.cpp) => 广搜
 1. [Building Teams](/code/1668.cpp) => 染色
-1. Round Trip
-1. Monsters
+1. [Round Trip](/code/1669.cpp) => 找环
+1. [Monsters](/code/1194.cpp) => 二维地图追击问题
 1. [Shortest Routes I](/code/1671.cpp) => 单源最短路
-1. Shortest Routes II
-1. High Score
+1. [Shortest Routes II](/code/1672.cpp) => Floyd
+1. [High Score](/code/1673.cpp) => Bellman-Ford 判断负环
 1. Flight Discount
 1. Cycle Finding
 1. Flight Routes
