@@ -111,7 +111,7 @@
 1. [Shortest Routes I](/code/1671.cpp) => 单源最短路
 1. [Shortest Routes II](/code/1672.cpp) => Floyd
 1. [High Score](/code/1673.cpp) => Bellman-Ford 判断负环
-1. Flight Discount
+1. [Flight Discount](/code/1195.cpp) => 分层图
 1. Cycle Finding
 1. Flight Routes
 1. Round Trip II
