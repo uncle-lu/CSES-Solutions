@@ -134,8 +134,8 @@
 1. [Hamiltonian Flights](/code/1690.cpp)
 1. [Knight's Tour](/code/1689.cpp)
 1. [Download Speed](/code/1694.cpp)
-1. Police Chase
-1. School Dance
+1. [Police Chase](/code/1695.cpp)
+1. [School Dance](/code/1696.cpp)
 1. Distinct Routes
 
 ## 区间查询
