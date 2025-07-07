@@ -7,15 +7,15 @@
 | 入门问题   |   17/19    |
 | 排序与搜索 |   18/35    |
 | 动态规划   |    7/19    |
-| 图算法     |    10/36    |
-| 区间查询   |    0/19    |
+| 图算法     |    24/36    |
+| 区间查询   |    1/19    |
 | 树算法     |    1/16    |
 | 数学       |    0/31    |
 | 字符串算法 |    0/17    |
 | 贪心       |    0/7     |
 | 高级技巧   |    0/24    |
 | 附加问题   |    0/77    |
-| **Total**  | **53/300** |
+| **Total**  | **54/300** |
 
 # Table of Contents
 
@@ -112,11 +112,11 @@
 1. [Shortest Routes II](/code/1672.cpp) => Floyd
 1. [High Score](/code/1673.cpp) => Bellman-Ford 判断负环
 1. [Flight Discount](/code/1195.cpp) => 分层图
-1. Cycle Finding
-1. Flight Routes
-1. Round Trip II
-1. Course Schedule
-1. Longest Flight Route
+1. [Cycle Finding](/code/1197.cpp)
+1. [Flight Routes](/code/1196.cpp)
+1. [Round Trip II](/code/1678.cpp)
+1. [Course Schedule](/code/1697.cpp)
+1. [Longest Flight Route](/code/1680.cpp)
 1. Game Routes
 1. Investigation
 1. Planets Queries I
@@ -124,23 +124,23 @@
 1. Planets Cycles
 1. Road Reparation
 1. Road Construction
-1. Flight Routes Check
-1. Planets and Kingdoms
+1. [Flight Routes Check](/code/1682.cpp)
+1. [Planets and Kingdoms](/code/1683.cpp)
 1. Giant Pizza
 1. Coin Collector
-1. Mail Delivery
-1. De Bruijn Sequence
-1. Teleporters Path
-1. Hamiltonian Flights
-1. Knight's Tour
-1. Download Speed
+1. [Mail Delivery](/code/1691.cpp)
+1. [De Bruijn Sequence](/code/1692.cpp)
+1. [Tleporters Path](/code/1693.cpp)
+1. [Hamiltonian Flights](/code/1690.cpp)
+1. [Knight's Tour](/code/1689.cpp)
+1. [Download Speed](/code/1694.cpp)
 1. Police Chase
 1. School Dance
 1. Distinct Routes
 
 ## 区间查询
 
-1. Static Range Sum Queries
+1. [Static Range Sum Queries](/code/1646.cpp)=> 前缀和
 1. Static Range Minimum Queries
 1. Dynamic Range Sum Queries
 1. Dynamic Range Minimum Queries
