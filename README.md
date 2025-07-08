@@ -136,7 +136,7 @@
 1. [Download Speed](/code/1694.cpp)
 1. [Police Chase](/code/1695.cpp)
 1. [School Dance](/code/1696.cpp)
-1. Distinct Routes
+1. [Distinct Routes](/code/1711.cpp)
 
 ## 区间查询
 
