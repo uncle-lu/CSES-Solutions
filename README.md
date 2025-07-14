@@ -216,8 +216,8 @@
 ## 字符串算法
 
 1. Word Combinations
-1. String Matching
-1. Finding Borders
+1. [String Matching](/code/1753.cpp)
+1. [Finding Borders](/code/1732.cpp)
 1. Finding Periods
 1. Minimal Rotation
 1. Longest Palindrome
