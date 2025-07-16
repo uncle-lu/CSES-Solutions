@@ -189,9 +189,10 @@
 1. [Sum of Divisors](/code/1082.cpp)
 1. [Divisor Analysis](/code/2182.cpp)
 1. [Prime Multiples](/code/2185.cpp)
-1. Counting Coprime Pairs
-1. Binomial Coefficients
-1. Creating Strings II
+1. [Counting Coprime Pairs](/code/2417.cpp)
+1. Next Prime
+1. [Binomial Coefficients](/code/1079.cpp)
+1. [Creating Strings II](/code/1715.cpp)
 1. Distributing Apples
 1. Christmas Party
 1. Bracket Sequences I
