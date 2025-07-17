@@ -86,9 +86,9 @@
 1. [Removing Digits](/code/1637.cpp)
 1. [Grid Paths](/code/1638.cpp)
 1. [Book Shop](/code/1158.cpp)
-1. Array Description
-1. Counting Towers
-1. Edit Distance
+1. [Array Description](/code/1746.cpp)
+1. [Counting Towers](/code/2413.cpp)
+1. [Edit Distance](/code/1639.cpp)
 1. Rectangle Cutting
 1. Money Sums
 1. Removal Game
@@ -193,8 +193,8 @@
 1. Next Prime
 1. [Binomial Coefficients](/code/1079.cpp)
 1. [Creating Strings II](/code/1715.cpp)
-1. Distributing Apples
-1. Christmas Party
+1. [Distributing Apples](/code/1716.cpp)
+1. [Christmas Party](/code/1717.cpp)
 1. Bracket Sequences I
 1. Bracket Sequences II
 1. Counting Necklaces
