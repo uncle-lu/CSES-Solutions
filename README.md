@@ -89,11 +89,11 @@
 1. [Array Description](/code/1746.cpp)
 1. [Counting Towers](/code/2413.cpp)
 1. [Edit Distance](/code/1639.cpp)
-1. Rectangle Cutting
-1. Money Sums
-1. Removal Game
-1. Two Sets II
-1. Increasing Subsequence
+1. [Rectangle Cutting](/code/1097.cpp)
+1. [Money Sums](/code/1745.cpp)
+1. [Removal Game](/code/1097.cpp)
+1. [Two Sets II](/code/1093.cpp)
+1. [Increasing Subsequence](/code/1145.cpp)
 1. Projects
 1. Elevator Rides
 1. Counting Tilings
