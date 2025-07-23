@@ -2,24 +2,31 @@
 
 [CSES](https://cses.fi/problemset/) 问题集包含一系列算法编程练习问题。本仓库将给出 [uncle-lu](https://cses.fi/user/291821) 的标准程序。
 
-| 题目类型   |  解决数量  |
-| ---------- | :--------: |
-| 入门问题   |   17/19    |
-| 排序与搜索 |   18/35    |
-| 动态规划   |    7/19    |
-| 图算法     |   24/36    |
-| 区间查询   |    1/19    |
-| 树算法     |    1/16    |
-| 数学       |    8/31    |
-| 字符串算法 |    0/17    |
-| 贪心       |    0/7     |
-| 高级技巧   |    0/24    |
-| 附加问题   |    0/77    |
-| **Total**  | **54/300** |
-
 # Table of Contents
 
-## 入门问题
+| 题目类型                      |  解决数量  |
+| ----------------------------- | :--------: |
+| Introductory Problems         |   17/24    |
+| Sorting and Searching         |   18/35    |
+| Dynamic Programming           |   18/23    |
+| Graph Algorithms              |   26/36    |
+| Range Queries                 |    7/25    |
+| Tree Algorithms               |    1/16    |
+| Mathematics                   |   13/37    |
+| String Algorithms             |    2/21    |
+| Geometry                      |    0/16    |
+| Advanced Techniques           |    0/25    |
+| Sliding Window Problems       |    0/11    |
+| Interactive Problems          |    0/ 6    |
+| Bitwise Operations            |    0/11    |
+| Construction Problems         |    1/ 8    |
+| Advanced Graph Problems       |    0/28    |
+| Counting Problems             |    0/18    |
+| Additional Problems I         |    0/30    |
+| Additional Problems II        |    0/30    |
+| *Total*                       | *103/400*  |
+
+## Introductory Problems
 1. [Weird Algorithm](/code/1068.cpp)
 1. [Missing Number](/code/1083.cpp)
 1. [Repetitions](/code/1069.cpp)
@@ -37,10 +44,15 @@
 1. [Creating Strings](/code/1622.cpp)
 1. [Apple Division](/code/1623.cpp)
 1. [Chessboard and Queens](/code/1624.cpp)
-1. Digit Queries
-1. Grid Paths
+1. [Raab Game I](/code/3399.cpp)
+1. [Mex Grid Construction](/code/3419.cpp)
+1. [Knight Moves Grid](/code/3217.cpp)
+1. [Grid Coloring I](/code/3311.cpp)
+1. [Digit Queries](/code/2431.cpp)
+1. [String Reorder](/code/1743.cpp)
+1. [Grid Path Description](/code/1625.cpp)
 
-## 排序与搜索
+## Sorting and Searching
 1. [Distinct Numbers](/code/1621.cpp)
 1. [Apartments](/code/1084.cpp)
 1. [Ferris Wheel](/code/1090.cpp)
@@ -55,51 +67,55 @@
 1. [Collecting Numbers II](/code/2217.cpp)
 1. [Playlist](/code/1141.cpp) => 双指针
 1. [Towers](/code/1073.cpp) => 集合
-1. [Traffic Lights](/code/1663.cpp) => 链表, 倒序模拟
+1. [Traffic Lights](/code/1163.cpp) => 链表, 倒序模拟
+1. [Distinct Values Subarrays](/code/3420.cpp)
+1. [Distinct Values Subsequences](/code/3421.cpp)
 1. [Josephus Problem I](/code/2162.cpp)
 1. [Josephus Problem II](/code/2163.cpp) => 平衡树/红黑树
 1. [Nested Ranges Check](/code/2168.cpp)
-1. Nested Ranges Count
-1. Room Allocation
-1. Factory Machines
-1. Tasks and Deadlines
-1. Reading Books
-1. Sum of Three Values
-1. Sum of Four Values
-1. Nearest Smaller Values
-1. Subarray Sums I
-1. Subarray Sums II
-1. Subarray Divisibility
-1. Subarray Distinct Values
-1. Array Division
-1. Sliding Median
-1. Sliding Cost
-1. Movie Festival II
-1. Maximum Subarray Sum II
+1. [Nested Ranges Count](/code/2169.cpp)
+1. [Room Allocation](/code/1164.cpp)
+1. [Factory Machines](/code/1620.cpp)
+1. [Tasks and Deadlines](/code/1630.cpp)
+1. [Reading Books](/code/1631.cpp)
+1. [Sum of Three Values](/code/1641.cpp)
+1. [Sum of Four Values](/code/1642.cpp)
+1. [Nearest Smaller Values](/code/1645.cpp)
+1. [Subarray Sums I](/code/1660.cpp)
+1. [Subarray Sums II](/code/1661.cpp)
+1. [Subarray Divisibility](/code/1662.cpp)
+1. [Distinct Values Subarrays II](/code/2428.cpp)
+1. [Array Division](/code/1085.cpp)
+1. [Movie Festival II](/code/1632.cpp)
+1. [Maximum Subarray Sum II](/code/1644.cpp)
 
-## 动态规划
+## Dynamic Programming
 
 1. [Dice Combinations](/code/1633.cpp)
 1. [Minimizing Coins](/code/1634.cpp)
 1. [Coin Combinations I](/code/1635.cpp)
 1. [Coin Combinations II](/code/1636.cpp)
 1. [Removing Digits](/code/1637.cpp)
-1. [Grid Paths](/code/1638.cpp)
+1. [Grid Paths I](/code/1638.cpp)
 1. [Book Shop](/code/1158.cpp)
 1. [Array Description](/code/1746.cpp)
 1. [Counting Towers](/code/2413.cpp)
 1. [Edit Distance](/code/1639.cpp)
-1. [Rectangle Cutting](/code/1097.cpp)
+1. [Longest Common Subsequence](/code/3403.cpp)
+1. [Rectangle Cutting](/code/1744.cpp)
+1. [Minimal Grid Path](/code/3359.cpp)
 1. [Money Sums](/code/1745.cpp)
 1. [Removal Game](/code/1097.cpp)
 1. [Two Sets II](/code/1093.cpp)
+1. [Mountain Range](/code/3314.cpp)
 1. [Increasing Subsequence](/code/1145.cpp)
-1. Projects
-1. Elevator Rides
-1. Counting Tilings
-1. Counting Numbers
+1. [Projects](/code/1140.cpp)
+1. [Elevator Rides](/code/1653.cpp)
+1. [Counting Tilings](/code/2181.cpp)
+1. [Counting Numbers](/code/2220.cpp)
+1. [Increasing Subsequence II](/code/1748.cpp)
 
-## 图算法
+## Graph Algorithms
 
 1. [Counting Rooms](/code/1192.cpp)
 1. [Labyrinth](/code/1193.cpp)
@@ -115,22 +131,22 @@
 1. [Cycle Finding](/code/1197.cpp)
 1. [Flight Routes](/code/1196.cpp)
 1. [Round Trip II](/code/1678.cpp)
-1. [Course Schedule](/code/1697.cpp)
+1. [Course Schedule](/code/1679.cpp)
 1. [Longest Flight Route](/code/1680.cpp)
-1. Game Routes
-1. Investigation
-1. Planets Queries I
-1. Planets Queries II
-1. Planets Cycles
-1. Road Reparation
-1. Road Construction
+1. [Game Routes](/code/1681.cpp)
+1. [Investigation](/code/1202.cpp)
+1. [Planets Queries I](/code/1750.cpp)
+1. [Planets Queries II](/code/1160.cpp)
+1. [Planets Cycles](/code/1751.cpp)
+1. [Road Reparation](/code/1675.cpp)
+1. [Road Construction](/code/1676.cpp)
 1. [Flight Routes Check](/code/1682.cpp)
 1. [Planets and Kingdoms](/code/1683.cpp)
-1. Giant Pizza
-1. Coin Collector
+1. [Giant Pizza](/code/1684.cpp)
+1. [Coin Collector](/code/1686.cpp)
 1. [Mail Delivery](/code/1691.cpp)
 1. [De Bruijn Sequence](/code/1692.cpp)
-1. [Tleporters Path](/code/1693.cpp)
+1. [Teleporters Path](/code/1693.cpp)
 1. [Hamiltonian Flights](/code/1690.cpp)
 1. [Knight's Tour](/code/1689.cpp)
 1. [Download Speed](/code/1694.cpp)
@@ -138,48 +154,54 @@
 1. [School Dance](/code/1696.cpp)
 1. [Distinct Routes](/code/1711.cpp)
 
-## 区间查询
+## Range Queries
 
 1. [Static Range Sum Queries](/code/1646.cpp)=> 前缀和
-1. Static Range Minimum Queries
-1. Dynamic Range Sum Queries
-1. Dynamic Range Minimum Queries
-1. Range Xor Queries
-1. Range Update Queries
-1. Forest Queries
-1. Hotel Queries
-1. List Removals
-1. Salary Queries
-1. Prefix Sum Queries
-1. Pizzeria Queries
-1. Subarray Sum Queries
-1. Distinct Values Queries
-1. Increasing Array Queries
-1. Forest Queries II
-1. Range Updates and Sums
-1. Polynomial Queries
-1. Range Queries and Copies
+1. [Static Range Minimum Queries](/code/1647.cpp)
+1. [Dynamic Range Sum Queries](/code/1648.cpp)
+1. [Dynamic Range Minimum Queries](/code/1649.cpp)
+1. [Range Xor Queries](/code/1650.cpp)
+1. [Range Update Queries](/code/1651.cpp)
+1. [Forest Queries](/code/1652.cpp)
+1. [Hotel Queries](/code/1143.cpp)
+1. [List Removals](/code/1749.cpp)
+1. [Salary Queries](/code/1144.cpp)
+1. [Prefix Sum Queries](/code/2166.cpp)
+1. [Pizzeria Queries](/code/2206.cpp)
+1. [Visible Buildings Queries](/code/3304.cpp)
+1. [Range Interval Queries](/code/3163.cpp)
+1. [Subarray Sum Queries](/code/1190.cpp)
+1. [Subarray Sum Queries II](/code/3226.cpp)
+1. [Distinct Values Queries](/code/1734.cpp)
+1. [Distinct Values Queries II](/code/3356.cpp)
+1. [Increasing Array Queries](/code/2416.cpp)
+1. [Movie Festival Queries](/code/1664.cpp)
+1. [Forest Queries II](/code/1739.cpp)
+1. [Range Updates and Sums](/code/1735.cpp)
+1. [Polynomial Queries](/code/1736.cpp)
+1. [Range Queries and Copies](/code/1737.cpp)
+1. [Missing Coin Sum Queries](/code/2184.cpp)
 
-## 树算法
+## Tree Algorithms
 
 1. [Subordinates](/code/1674.cpp)
-1. Tree Matching
-1. Tree Diameter
-1. Tree Distances I
-1. Tree Distances II
-1. Company Queries I
-1. Company Queries II
-1. Distance Queries
-1. Counting Paths
-1. Subtree Queries
-1. Path Queries
-1. Path Queries II
-1. Distinct Colors
-1. Finding a Centroid
-1. Fixed-Length Paths I
-1. Fixed-Length Paths II
+1. [Tree Matching](/code/1130.cpp)
+1. [Tree Diameter](/code/1131.cpp)
+1. [Tree Distances I](/code/1132.cpp)
+1. [Tree Distances II](/code/1133.cpp)
+1. [Company Queries I](/code/1687.cpp)
+1. [Company Queries II](/code/1688.cpp)
+1. [Distance Queries](/code/1135.cpp)
+1. [Counting Paths](/code/1136.cpp)
+1. [Subtree Queries](/code/1137.cpp)
+1. [Path Queries](/code/1138.cpp)
+1. [Path Queries II](/code/2134.cpp)
+1. [Distinct Colors](/code/1139.cpp)
+1. [Finding a Centroid](/code/2079.cpp)
+1. [Fixed-Length Paths I](/code/2080.cpp)
+1. [Fixed-Length Paths II](/code/2081.cpp)
 
-## 数学
+## Mathematics
 
 1. [Josephus Queries](/code/2164.cpp)
 1. [Exponentiation](/code/1095.cpp)
@@ -190,164 +212,268 @@
 1. [Divisor Analysis](/code/2182.cpp)
 1. [Prime Multiples](/code/2185.cpp)
 1. [Counting Coprime Pairs](/code/2417.cpp)
-1. Next Prime
+1. [Next Prime](/code/3396.cpp)
 1. [Binomial Coefficients](/code/1079.cpp)
 1. [Creating Strings II](/code/1715.cpp)
 1. [Distributing Apples](/code/1716.cpp)
 1. [Christmas Party](/code/1717.cpp)
-1. Bracket Sequences I
-1. Bracket Sequences II
-1. Counting Necklaces
-1. Counting Grids
-1. Fibonacci Numbers
-1. Throwing Dice
-1. Graph Paths I
-1. Graph Paths II
-1. Dice Probability
-1. Moving Robots
-1. Candy Lottery
-1. Inversion Probability
-1. Stick Game
-1. Nim Game I
-1. Nim Game II
-1. Stair Game
-1. Grundy's Game
-1. Another Game
+1. [Permutation Order](/code/3397.cpp)
+1. [Permutation Rounds](/code/3398.cpp)
+1. [Bracket Sequences I](/code/2064.cpp)
+1. [Bracket Sequences II](/code/2187.cpp)
+1. [Counting Necklaces](/code/2209.cpp)
+1. [Counting Grids](/code/2210.cpp)
+1. [Fibonacci Numbers](/code/1722.cpp)
+1. [Throwing Dice](/code/1096.cpp)
+1. [Graph Paths I](/code/1723.cpp)
+1. [Graph Paths II](/code/1724.cpp)
+1. [System of Linear Equations](/code/3154.cpp)
+1. [Sum of Four Squares](/code/3355.cpp)
+1. [Triangle Number Sums](/code/3406.cpp)
+1. [Dice Probability](/code/1725.cpp)
+1. [Moving Robots](/code/1726.cpp)
+1. [Candy Lottery](/code/1727.cpp)
+1. [Inversion Probability](/code/1728.cpp)
+1. [Stick Game](/code/1729.cpp)
+1. [Nim Game I](/code/1730.cpp)
+1. [Nim Game II](/code/1098.cpp)
+1. [Stair Game](/code/1099.cpp)
+1. [Grundy's Game](/code/2207.cpp)
+1. [Another Game](/code/2208.cpp)
 
-## 字符串算法
+## String Algorithms
 
-1. Word Combinations
+1. [Word Combinations](/code/1731.cpp)
 1. [String Matching](/code/1753.cpp)
 1. [Finding Borders](/code/1732.cpp)
-1. Finding Periods
-1. Minimal Rotation
-1. Longest Palindrome
-1. Required Substring
-1. Palindrome Queries
-1. Finding Patterns
-1. Counting Patterns
-1. Pattern Positions
-1. Distinct Substrings
-1. Repeating Substring
-1. String Functions
-1. Substring Order I
-1. Substring Order II
-1. Substring Distribution
+1. [Finding Periods](/code/1733.cpp)
+1. [Minimal Rotation](/code/1110.cpp)
+1. [Longest Palindrome](/code/1111.cpp)
+1. [All Palindromes](/code/3138.cpp)
+1. [Required Substring](/code/1112.cpp)
+1. [Palindrome Queries](/code/2420.cpp)
+1. [Finding Patterns](/code/2102.cpp)
+1. [Counting Patterns](/code/2103.cpp)
+1. [Pattern Positions](/code/2104.cpp)
+1. [Distinct Substrings](/code/2105.cpp)
+1. [Distinct Subsequences](/code/1149.cpp)
+1. [Repeating Substring](/code/2106.cpp)
+1. [String Functions](/code/2107.cpp)
+1. [Inverse Suffix Array](/code/3225.cpp)
+1. [String Transform](/code/1113.cpp)
+1. [Substring Order I](/code/2108.cpp)
+1. [Substring Order II](/code/2109.cpp)
+1. [Substring Distribution](/code/2110.cpp)
 
+## Geometry
 
-## 贪心
+1. [Point Location Test](/code/2189.cpp)
+1. [Line Segment Intersection](/code/2190.cpp)
+1. [Polygon Area](/code/2191.cpp)
+1. [Point in Polygon](/code/2192.cpp)
+1. [Polygon Lattice Points](/code/2193.cpp)
+1. [Minimum Euclidean Distance](/code/2194.cpp)
+1. [Convex Hull](/code/2195.cpp)
+1. [Maximum Manhattan Distances](/code/3410.cpp)
+1. [All Manhattan Distances](/code/3411.cpp)
+1. [Intersection Points](/code/1740.cpp)
+1. [Line Segments Trace I](/code/3427.cpp)
+1. [Line Segments Trace II](/code/3428.cpp)
+1. [Lines and Queries I](/code/3429.cpp)
+1. [Lines and Queries II](/code/3430.cpp)
+1. [Area of Rectangles](/code/1741.cpp)
+1. [Robot Path](/code/1742.cpp)
 
-1. Point Location Test
-1. Line Segment Intersection
-1. Polygon Area
-1. Point in Polygon
-1. Polygon Lattice Points
-1. Minimum Euclidean Distance
-1. Convex Hull
+## Advanced Techniques
 
-## 高级技巧
+1. [Meet in the Middle](/code/1628.cpp)
+1. [Hamming Distance](/code/2136.cpp)
+1. [Corner Subgrid Check](/code/3360.cpp)
+1. [Corner Subgrid Count](/code/2137.cpp)
+1. [Reachable Nodes](/code/2138.cpp)
+1. [Reachability Queries](/code/2143.cpp)
+1. [Cut and Paste](/code/2072.cpp)
+1. [Substring Reversals](/code/2073.cpp)
+1. [Reversals and Sums](/code/2074.cpp)
+1. [Necessary Roads](/code/2076.cpp)
+1. [Necessary Cities](/code/2077.cpp)
+1. [Eulerian Subgraphs](/code/2078.cpp)
+1. [Monster Game I](/code/2084.cpp)
+1. [Monster Game II](/code/2085.cpp)
+1. [Subarray Squares](/code/2086.cpp)
+1. [Houses and Schools](/code/2087.cpp)
+1. [Knuth Division](/code/2088.cpp)
+1. [Apples and Bananas](/code/2111.cpp)
+1. [One Bit Positions](/code/2112.cpp)
+1. [Signal Processing](/code/2113.cpp)
+1. [New Roads Queries](/code/2101.cpp)
+1. [Dynamic Connectivity](/code/2133.cpp)
+1. [Parcel Delivery](/code/2121.cpp)
+1. [Task Assignment](/code/2129.cpp)
+1. [Distinct Routes II](/code/2130.cpp)
 
-1. Meet in the Middle
-1. Hamming Distance
-1. Beautiful Subgrids
-1. Reachable Nodes
-1. Reachability Queries
-1. Cut and Paste
-1. Substring Reversals
-1. Reversals and Sums
-1. Necessary Roads
-1. Necessary Cities
-1. Eulerian Subgraphs
-1. Monster Game I
-1. Monster Game II
-1. Subarray Squares
-1. Houses and Schools
-1. Knuth Division
-1. Apples and Bananas
-1. One Bit Positions
-1. Signal Processing
-1. New Roads Queries
-1. Dynamic Connectivity
-1. Parcel Delivery
-1. Task Assignment
-1. Distinct Routes II
+## Sliding Window Problems
 
-## 附加问题
+1. [Sliding Window Sum](/code/3220.cpp)
+1. [Sliding Window Minimum](/code/3221.cpp)
+1. [Sliding Window Xor](/code/3426.cpp)
+1. [Sliding Window Or](/code/3405.cpp)
+1. [Sliding Window Distinct Values](/code/3222.cpp)
+1. [Sliding Window Mode](/code/3224.cpp)
+1. [Sliding Window Mex](/code/3219.cpp)
+1. [Sliding Window Median](/code/1076.cpp)
+1. [Sliding Window Cost](/code/1077.cpp)
+1. [Sliding Window Inversions](/code/3223.cpp)
+1. [Sliding Window Advertisement](/code/3227.cpp)
 
-1. Shortest Subsequence
-1. Counting Bits
-1. Swap Game
-1. Prüfer Code
-1. Acyclic Graph Edges
-1. Strongly Connected Edges
-1. Even Outdegree Edges
-1. Multiplication Table
-1. Advertisement
-1. Special Substrings
-1. Permutation Inversions
-1. Maximum Xor Subarray
-1. Movie Festival Queries
-1. Chess Tournament
-1. Tree Traversals
-1. Network Renovation
-1. Graph Girth
-1. Intersection Points
-1. Inverse Inversions
-1. Monotone Subsequences
-1. String Reorder
-1. Stack Weights
-1. Pyramid Array
-1. Increasing Subsequence II
-1. String Removals
-1. Bit Inversions
-1. Xor Pyramid
-1. Writing Numbers
-1. String Transform
-1. Letter Pair Move Game
-1. Maximum Building I
-1. Sorting Methods
-1. Cyclic Array
-1. List of Sums
-1. Increasing Array II
-1. Food Division
-1. Bit Problem
-1. Swap Round Sorting
-1. Binary Subsequences
-1. Tree Isomorphism I
-1. Counting Sequences
-1. Critical Cities
-1. School Excursion
-1. Coin Grid
-1. Robot Path
-1. Programmers and Artists
-1. Course Schedule II
-1. Removing Digits II
-1. Coin Arrangement
-1. Counting Bishops
-1. Grid Puzzle I
-1. Grid Puzzle II
-1. Empty String
-1. Grid Paths
-1. Bit Substrings
-1. Reversal Sorting
-1. Counting Reorders
-1. Book Shop II
-1. Network Breakdown
-1. Visiting Cities
-1. Missing Coin Sum Queries
-1. Number Grid
-1. Maximum Building II
-1. Filling Trominos
-1. Stick Divisions
-1. Coding Company
-1. Flight Route Requests
-1. Two Stacks Sorting
-1. Tree Isomorphism II
-1. Forbidden Cities
-1. Area of Rectangles
-1. Grid Completion
-1. Creating Offices
-1. Permutations II
-1. Functional Graph Distribution
-1. New Flight Routes
-1. Grid Path Construction
+## Interactive Problems
+
+1. [Hidden Integer](/code/3112.cpp)
+1. [Hidden Permutation](/code/3139.cpp)
+1. [K-th Highest Score](/code/3305.cpp)
+1. [Permuted Binary Strings](/code/3228.cpp)
+1. [Colored Chairs](/code/3273.cpp)
+1. [Inversion Sorting](/code/3140.cpp)
+
+## Bitwise Operations
+
+1. [Counting Bits](/code/1146.cpp)
+1. [Maximum Xor Subarray](/code/1655.cpp)
+1. [Maximum Xor Subset](/code/3191.cpp)
+1. [Number of Subset Xors](/code/3211.cpp)
+1. [K Subset Xors](/code/3192.cpp)
+1. [All Subarray Xors](/code/3233.cpp)
+1. [Xor Pyramid Peak](/code/2419.cpp)
+1. [Xor Pyramid Diagonal](/code/3194.cpp)
+1. [Xor Pyramid Row](/code/3195.cpp)
+1. [SOS Bit Problem](/code/1654.cpp)
+1. [And Subset Count](/code/3141.cpp)
+
+## Construction Problems
+
+1. [Inverse Inversions](/code/2214.cpp)
+1. [Monotone Subsequences](/code/2215.cpp)
+1. [Third Permutation](/code/3422.cpp)
+1. [Permutation Prime Sums](/code/3423.cpp)
+1. [Chess Tournament](/code/1697.cpp)
+1. [Distinct Sums Grid](/code/3424.cpp)
+1. [Filling Trominos](/code/2423.cpp)
+1. [Grid Path Construction](/code/2418.cpp)
+
+## Advanced Graph Problems
+
+1. [Nearest Shops](/code/3303.cpp)
+1. [Prüfer Code](/code/1134.cpp)
+1. [Tree Traversals](/code/1702.cpp)
+1. [Course Schedule II](/code/1757.cpp)
+1. [Acyclic Graph Edges](/code/1756.cpp)
+1. [Strongly Connected Edges](/code/2177.cpp)
+1. [Even Outdegree Edges](/code/2179.cpp)
+1. [Graph Girth](/code/1707.cpp)
+1. [Fixed Length Walk Queries](/code/3357.cpp)
+1. [Transfer Speeds Sum](/code/3111.cpp)
+1. [MST Edge Check](/code/3407.cpp)
+1. [MST Edge Set Check](/code/3408.cpp)
+1. [MST Edge Cost](/code/3409.cpp)
+1. [Network Breakdown](/code/1677.cpp)
+1. [Tree Coin Collecting I](/code/3114.cpp)
+1. [Tree Coin Collecting II](/code/3149.cpp)
+1. [Tree Isomorphism I](/code/1700.cpp)
+1. [Tree Isomorphism II](/code/1701.cpp)
+1. [Flight Route Requests](/code/1699.cpp)
+1. [Critical Cities](/code/1703.cpp)
+1. [Visiting Cities](/code/1203.cpp)
+1. [Graph Coloring](/code/3308.cpp)
+1. [Bus Companies](/code/3158.cpp)
+1. [Split into Two Paths](/code/3358.cpp)
+1. [Network Renovation](/code/1704.cpp)
+1. [Forbidden Cities](/code/1705.cpp)
+1. [Creating Offices](/code/1752.cpp)
+1. [New Flight Routes](/code/1685.cpp)
+
+## Counting Problems
+
+1. [Filled Subgrid Count I](/code/3413.cpp)
+1. [Filled Subgrid Count II](/code/3414.cpp)
+1. [All Letter Subgrid Count I](/code/3415.cpp)
+1. [All Letter Subgrid Count II](/code/3416.cpp)
+1. [Border Subgrid Count I](/code/3417.cpp)
+1. [Border Subgrid Count II](/code/3418.cpp)
+1. [Raab Game II](/code/3400.cpp)
+1. [Empty String](/code/1080.cpp)
+1. [Permutation Inversions](/code/2229.cpp)
+1. [Counting Bishops](/code/2176.cpp)
+1. [Counting Sequences](/code/2228.cpp)
+1. [Grid Paths II](/code/1078.cpp)
+1. [Counting Permutations](/code/1075.cpp)
+1. [Grid Completion](/code/2429.cpp)
+1. [Counting Reorders](/code/2421.cpp)
+1. [Tournament Graph Distribution](/code/3232.cpp)
+1. [Collecting Numbers Distribution](/code/3157.cpp)
+1. [Functional Graph Distribution](/code/2415.cpp)
+
+## Additional Problems I
+
+1. [Shortest Subsequence](/code/1087.cpp)
+1. [Distinct Values Sum](/code/3150.cpp)
+1. [Distinct Values Splits](/code/3190.cpp)
+1. [Swap Game](/code/1670.cpp)
+1. [Beautiful Permutation II](/code/3175.cpp)
+1. [Multiplication Table](/code/2422.cpp)
+1. [Bubble Sort Rounds I](/code/3151.cpp)
+1. [Bubble Sort Rounds II](/code/3152.cpp)
+1. [Nearest Campsites I](/code/3306.cpp)
+1. [Nearest Campsites II](/code/3307.cpp)
+1. [Advertisement](/code/1142.cpp)
+1. [Special Substrings](/code/2186.cpp)
+1. [Counting LCM Arrays](/code/3169.cpp)
+1. [Square Subsets](/code/3193.cpp)
+1. [Subarray Sum Constraints](/code/3294.cpp)
+1. [Water Containers Moves](/code/3213.cpp)
+1. [Water Containers Queries](/code/3214.cpp)
+1. [Stack Weights](/code/2425.cpp)
+1. [Maximum Average Subarrays](/code/3301.cpp)
+1. [Subsets with Fixed Average](/code/3302.cpp)
+1. [Two Array Average](/code/3361.cpp)
+1. [Pyramid Array](/code/1747.cpp)
+1. [Permutation Subsequence](/code/3404.cpp)
+1. [Bit Inversions](/code/1188.cpp)
+1. [Writing Numbers](/code/1086.cpp)
+1. [Letter Pair Move Game](/code/2427.cpp)
+1. [Maximum Building I](/code/1147.cpp)
+1. [Sorting Methods](/code/1162.cpp)
+1. [Cyclic Array](/code/1191.cpp)
+1. [List of Sums](/code/2414.cpp)
+
+## Additional Problems II
+
+1. [Bouncing Ball Steps](/code/3215.cpp)
+1. [Bouncing Ball Cycle](/code/3216.cpp)
+1. [Knight Moves Queries](/code/3218.cpp)
+1. [K Subset Sums I](/code/3108.cpp)
+1. [K Subset Sums II](/code/3109.cpp)
+1. [Increasing Array II](/code/2132.cpp)
+1. [Food Division](/code/1189.cpp)
+1. [Swap Round Sorting](/code/1698.cpp)
+1. [Binary Subsequences](/code/2430.cpp)
+1. [School Excursion](/code/1706.cpp)
+1. [Coin Grid](/code/1709.cpp)
+1. [Grid Coloring II](/code/3312.cpp)
+1. [Programmers and Artists](/code/2426.cpp)
+1. [Removing Digits II](/code/2174.cpp)
+1. [Coin Arrangement](/code/2180.cpp)
+1. [Replace with Difference](/code/3159.cpp)
+1. [Grid Puzzle I](/code/2432.cpp)
+1. [Grid Puzzle II](/code/2131.cpp)
+1. [Bit Substrings](/code/2115.cpp)
+1. [Reversal Sorting](/code/2075.cpp)
+1. [Book Shop II](/code/1159.cpp)
+1. [GCD Subsets](/code/3161.cpp)
+1. [Minimum Cost Pairs](/code/3402.cpp)
+1. [Same Sum Subsets](/code/3425.cpp)
+1. [Mex Grid Queries](/code/1157.cpp)
+1. [Maximum Building II](/code/1148.cpp)
+1. [Stick Divisions](/code/1161.cpp)
+1. [Stick Difference](/code/3401.cpp)
+1. [Coding Company](/code/1665.cpp)
+1. [Two Stacks Sorting](/code/2402.cpp)

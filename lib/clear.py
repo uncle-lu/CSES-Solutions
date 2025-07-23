@@ -2,10 +2,17 @@ import os
 import shutil
 
 def delete_files_and_folders(root_dir):
+    # 跳过public目录
+    if root_dir == 'public' or root_dir.endswith('/public') or '/public/' in root_dir:
+        return
+    
     for root, dirs, files in os.walk(root_dir, topdown=False):
         # 仅删除名为.dSYM的文件夹，保留其他文件夹
         for name in list(dirs):
             dir_path = os.path.join(root, name)
+            # 跳过public目录
+            if name == 'public':
+                continue
             if name.endswith('.dSYM'):
                 shutil.rmtree(os.path.join(root, name))
                 print(f"Deleted directory: {dir_path}")
